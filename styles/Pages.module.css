@@ -1,0 +1,42 @@
+.page1 {
+    background-color: #ece8e8;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+    position: absolute;
+    /* transform: translate(13%); */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: .5px solid #7adb53;
+    margin: 12px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.tablecontainer {
+    position: absolute;
+    width: 97%;
+    margin-left: 20px;
+    top: 50px;
+    border: 1px solid #3d9e45;
+    background-color: #fafafa;
+}
+
+.page2btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 70vh;
+}
